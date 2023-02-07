@@ -2,7 +2,7 @@ body {
     background-color: #e6e6fa;
     }
     h1 {
-    color: #4d4dff;
+    color: #7b03fc;
     text-align: center;
     }
     p {
@@ -27,6 +27,6 @@ body {
     color: black;
     }
     .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #7b03fc;
     color: white;
     }
