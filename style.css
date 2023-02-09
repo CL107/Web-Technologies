@@ -16,11 +16,12 @@ body {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2)
     }
     #topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 18px;
+    max-height: 20px;
     text-decoration: none;
     font-family: Lexend Deca;
     font-size: 17px;
@@ -44,10 +45,9 @@ body {
     .sticky + .content {
         padding-top: 60px;
     }
-    .logo-image {
-        width: 46px;
-        height: 46px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-top: -6px;
+    .navbar-logo {
+        /* max-width: 100%; */
+        width: auto;
+        height: 10px;
+        /* reduce image size without cropping */
     }
