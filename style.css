@@ -7,10 +7,17 @@ body {
         font-family: Lexend Deca;
         color: #FF5858;
         text-align: center;
+        font-size: 4vw;
+    }
+    h2 {
+        font-family: Lexend Deca;
+        color: #FF5858;
+        text-align: center;
+        font-size: 3vw;
     }
     p {
         font-family: Lexend Deca;
-        font-size: 20px;
+        font-size: 2vw;
     }
     /* figcaption {
         font-family: Lexend Deca;
@@ -19,7 +26,10 @@ body {
     #topnav {
         overflow: hidden;
         background-color: #ffffff;
-        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2)
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+        position: fixed;
+        top: 0px;
+        z-index: 2;
     }
     #topnav a {
         float: right;
@@ -63,18 +73,25 @@ body {
         max-width: 100%;
         background-repeat: no-repeat;
     }
-    #site-nav {
+    .grid-design {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20vw, 40vw));
+        /* background-color: #2196F3; */
+        /* gap: 0vw; */
+        justify-content: space-evenly;
+    }
+    .article-grid {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        /* background-color: #2196F3; */
-        gap: 20vw;
-        padding: 5%;
+        grid-template-rows: repeat(auto-fit, minmax(20vw, 30vw));
+        gap: 3%;
+        padding: 3%;
         justify-content: space-evenly;
     }
     .grid-image {
         width: 100%;
         height: 100%;
+        border-radius: 10%;
         object-fit: cover;
         aspect-ratio: 1/1;
         /* filter: blur(2px); */
