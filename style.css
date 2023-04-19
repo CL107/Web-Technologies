@@ -19,6 +19,10 @@ body {
         font-family: Lexend Deca;
         font-size: 2vw;
     }
+    li {
+        font-family: Lexend Deca;
+        font-size: 2vw;
+    }
     /* figcaption {
         font-family: Lexend Deca;
         font-size: 20px;
@@ -84,8 +88,8 @@ body {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: repeat(auto-fit, minmax(20vw, 30vw));
-        gap: 3%;
-        padding: 3%;
+        gap: 10%;
+        padding: 5%;
         justify-content: space-evenly;
     }
     .grid-image {
@@ -94,6 +98,7 @@ body {
         border-radius: 10%;
         object-fit: cover;
         aspect-ratio: 1/1;
+        filter: brightness(70%);
         /* filter: blur(2px); */
     }
     /* #site-nav div {
@@ -106,8 +111,8 @@ body {
         position: relative;
         font-family: Lexend Deca;
         font-size: 3vw;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: #FF5858;
+        /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+        color: #ffffff;
     }
     .caption-centered {
         position: absolute;
