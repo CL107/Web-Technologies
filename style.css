@@ -23,16 +23,44 @@ body {
         font-family: Lexend Deca;
         font-size: 2vw;
     }
-    /* figcaption {
-        font-family: Lexend Deca;
-        font-size: 20px;
-    } */
+    form {
+        background-color: #FF5858;
+        width: 300px;
+        height: 44px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    input {
+        all: unset;
+        font: 16px system-ui;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+    }
+    button {
+        all: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+    }
+    button svg {
+        color: #fff;
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+        padding: 10px;
+    }
     #topnav {
         overflow: hidden;
         background-color: #ffffff;
         box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
         position: fixed;
         top: 0px;
+        width: 100%;
+        padding-top: 0px;
         z-index: 2;
     }
     #topnav a {
@@ -60,16 +88,8 @@ body {
         max-height: 60px;
         width: auto;
     }
-    .content {
-        padding: 16px;
-    }
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-    }
-    .sticky + .content {
-        padding-top: 60px;
+    .page-title {
+        padding-top: 17vh;
     }
     .splash-image {
         width: 100vw;
@@ -79,7 +99,7 @@ body {
     }
     .grid-design {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(20vw, 40vw));
+        grid-template-columns: repeat(auto-fit, minmax(20vw, 30vw));
         /* background-color: #2196F3; */
         /* gap: 0vw; */
         justify-content: space-evenly;
@@ -124,5 +144,14 @@ body {
         top: 0;
         left: 0;
         z-index: 1;
-    } 
+    }
+    #search {
+        padding: 25vw;
+    }
+    ::placeholder {
+        color: #fff;
+        opacity: 0.7; 
+    }
+    
+    
     

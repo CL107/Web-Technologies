@@ -2,7 +2,7 @@
 
 // When the event DOMContentLoaded occurs, it is safe to access the DOM
 document.addEventListener('DOMContentLoaded', function() {
-    // Whene the user scrolls the page, execute stickyFunction
+    // When the user scrolls the page, execute stickyFunction
     window.addEventListener('scroll', stickyFunction);
     // Get the navbar
     var topnav = document.getElementById("topnav");
