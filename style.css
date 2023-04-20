@@ -146,7 +146,7 @@ body {
         z-index: 1;
     }
     #search {
-        padding: 25vw;
+        padding: 25px;
     }
     ::placeholder {
         color: #fff;
