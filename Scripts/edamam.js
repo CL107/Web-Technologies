@@ -1,7 +1,7 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '1fc3ed54afmsh500aee0a29b51a1p147082jsne040073c9798',
+		'X-RapidAPI-Key': '4a75bc0fc17760878ca9304e336c30dc',
 		'X-RapidAPI-Host': 'edamam-recipe-search.p.rapidapi.com'
 	}
 };
@@ -35,7 +35,7 @@ function searchFunction() {
 // Dynamically create a card for each recipe
 function createCard(response) {
    
-    var response = JSON.parse(response);
+    var response = response;
     console.log(response);
 
     // Get the number of recipes
