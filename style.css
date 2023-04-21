@@ -63,7 +63,7 @@ body {
         padding-top: 0px;
         z-index: 2;
     }
-    #topnav a {
+    .nav-link {
         float: right;
         display: block;
         color: #000000;
@@ -74,11 +74,11 @@ body {
         font-family: Lexend Deca;
         font-size: 17px;
     }
-    #topnav a:hover {
+    .nav-link:hover {
         background-color: #ddd;
         color: black;
     }
-    #topnav a.active {
+    .nav-link.active {
         background-color: #FF5858;
         color: rgb(0, 0, 0);
     }
@@ -137,6 +137,7 @@ body {
     .caption-centered {
         position: absolute;
         align-items: center;
+        text-align: center;
         display: flex;
         height: 100%;
         justify-content: center;
