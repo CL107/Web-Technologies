@@ -146,6 +146,13 @@ body {
         left: 0;
         z-index: 1;
     }
+    .article-title {
+        margin-top: 50%;
+        /* margin: auto; */
+        /* width: 50%; */
+        /* border: 3px solid green; */
+        /* padding: 10px; */
+    }
     #search {
         padding: 25px;
     }
