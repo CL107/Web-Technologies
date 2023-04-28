@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to search for recipes
     function searchFunction() {
         
+        // Clear the previous results
+        document.getElementById("explore-results").innerHTML = "";
+
         // Get the search input
         var input = document.getElementById("explore-search").value;
 
