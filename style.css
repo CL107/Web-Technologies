@@ -3,6 +3,17 @@ body {
         margin: 0;
         padding: 0;
     }
+    footer {
+        /* clear:both; */
+        /* width:100%; */
+        margin:auto;
+        background-color: #FF5858;
+        color: #ffffff;
+        padding: 0.5vh;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-size: 2vw;
+    }
     h1 {
         font-family: Lexend Deca;
         color: #FF5858;
@@ -162,10 +173,17 @@ body {
     .article-grid {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: repeat(auto-fit, minmax(20vw, 30vw));
+        /* grid-template-rows: repeat(auto-fit, minmax(20vw, 30vw)); */
         gap: 10%;
         padding: 5%;
         justify-content: space-evenly;
+    }
+    .article-grid-image {
+        border-radius: 10%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        filter: brightness(100%);
+        /* filter: blur(2px); */
     }
     .grid-image {
         width: 100%;
