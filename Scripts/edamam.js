@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Fetch the recipes from edamam API
         fetch(`https://edamam-recipe-search.p.rapidapi.com/search?q=${input}`, options)
         .then(response => response.json())
+        .then(response => console.log(response))
         .then(response => {obj = response;})
-        .then(response => console.log(obj))
         .then(response => createCard(obj))
         .catch(err => console.error(err));
 
