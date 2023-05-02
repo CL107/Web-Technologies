@@ -6,6 +6,7 @@ const options = {
 	}
 };
 
+// Waits for the DOM to load before executing the code
 document.addEventListener('DOMContentLoaded', function() {
     // When the user clicks the search button
     document.getElementById("search-button").addEventListener("click", function() {searchFunction()} );
